@@ -6,56 +6,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    h2 {
+    .container {
+      display: flex;
+    }
+
+    a {
+      width: 100px;
+      height: 100px;
+      background-color: aqua;
+      line-height: 100px;
+      text-decoration: none;
       text-align: center;
-    }
-
-    table {
-      border-collapse: collapse;
-      margin: 0 auto;
-    }
-
-    table,
-    th,
-    td {
-      border: 2px solid gray;
-    }
-
-    th,
-    td {
-      text-align: center;
-      padding: 10px;
+      margin: 10px;
     }
   </style>
 </head>
 
 <body>
-  <h2>输入</h2>
-
-
-  <script>
-    let userName = prompt('first name？')
-    let age = prompt('age')
-    let gender = prompt('sex')
-
-    document.write(`
-  <table>
-    <tr>
-      <th>姓名</th>
-      <th>年龄</th>
-      <th>性别</th>
-    </tr>
-    <tr>
-      <td>${userName}</td>
-      <td>${age}</td>
-      <td>${gender}</td>
-    </tr>
-  </table>
-    `)
-
-  </script>
-
-
+  <h1>JS案例</h1>
+  <div class="container">
+    <a href="九九乘法表.html">九九乘法表</a><a href="输入输出.html">输入输出</a>
+  </div>
 </body>
 
 </html>
